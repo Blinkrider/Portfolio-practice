@@ -1,0 +1,288 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header {
+    background-color: #FFF8F3;
+    background-image: url('./portfolio-resources/images/developer.png'), url('/portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+
+/* Nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 145px 0 300px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    font-size: 20px;
+    line-height: auto;
+}
+
+/* shared style */
+.btn-primary {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: white;
+}
+
+img {
+    display: block;
+    /* good habit, add to all images */
+}
+
+.Contact {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FFF8F3;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FD6E0A;
+    margin-left: 30px;
+}
+
+.shared-color {
+    color: #757575;
+}
+
+/* */
+.nav-title h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    color: #181818;
+}
+
+.nav-title-h {
+    color: #FD6E0A;
+}
+
+/* Nav info section */
+header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 23px 0 310px;
+}
+
+.info {
+    max-width: 584px;
+}
+
+.img {
+    max-width: 584px;
+}
+
+.info-title {
+    font-weight: 600;
+    color: #474747;
+    font-size: 45px;
+}
+
+.info-head {
+    font-weight: 800;
+    font-size: 85px;
+    margin: 0;
+    line-height: 1;
+}
+
+.info-about {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+/* About Me section */
+main {
+    max-width: 1140px;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.about-me {
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about-title {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.about-p {
+    font-size: 18px;
+    color: #757575;
+
+}
+
+.about-contact {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+
+.info-p {
+    font-size: 20px;
+    color: #979694;
+    margin: 0;
+    line-height: 2;
+
+}
+
+.info-h {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+/* What I do */
+.wat {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.wat-p {
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 909px;
+    margin-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    gap: 25px;
+    border-radius: 5px;
+}
+
+.box-info {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box-h {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-p {
+    color: #757575;
+    line-height: 28px;
+    max-width: 201px;
+}
+
+/* Summary Section */
+.cv-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.cv-container {
+    display: flex;
+    gap: 25px;
+}
+
+.cv-edu {
+    width: 511px;
+    margin-top: 30px;
+    margin: 0;
+}
+
+.edu-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.edu-sub-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+
+.edu-low-h {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.edu-p {
+    font-size: 16px;
+    color: #757575;
+}
+
+.cv-btn {
+    display: block;
+    margin: 50px auto;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+    gap: 117px;
+    padding: 130px 230px;
+}
+
+footer img {
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.foot-h {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.foot-p {
+    font-size: 16px;
+    color: #474747;
+}
+
+footer .foot-ass {
+    width: 50%;
+}
+
+footer [type="text"],
+footer [type="email"],
+footer textarea {
+    display: block;
+    padding: 20px 30px;
+    margin-bottom: 24px;
+    width: 100%;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+}

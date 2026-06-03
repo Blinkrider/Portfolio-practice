@@ -12,3 +12,5 @@ A portfolio website built with HTML5 and CSS3 as part of my web development lear
 
 ## Status
 Completed as an independent practice project to master modern front-end layout design and web workflows.
+## Project Resources
+- [Original Portfolio Resources & Assets](https://github.com/ProgrammingHero1/hero-dev-portfolio-resources)

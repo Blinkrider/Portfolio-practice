@@ -289,9 +289,22 @@ footer textarea {
 
 /* Responsive for small device */
 @media screen and (max-width:576px) {
-    .box{
+    .box,.cv-container, footer{
         flex-direction: column;
         align-items: center;
     }
-    
+    .cv-edu{
+        width:auto;
+    }
+    footer{
+        padding:20px;
+    }
+    footer .foot-ass {
+    width: 100%;
+}
+footer [type="text"],
+footer [type="email"],
+footer textarea{
+    width: calc((100% - 40px));
+}
 }

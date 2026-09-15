@@ -289,9 +289,21 @@ footer textarea {
 
 /* Responsive for small device */
 @media screen and (max-width:576px) {
-    .box,.cv-container, footer{
+    .box,.cv-container, footer,nav,header section{
         flex-direction: column;
         align-items: center;
+    }
+    header{
+        background-image: none;
+    }
+    .img img {
+        width: 100%;
+    }
+    header section{
+        margin: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
     }
     .about-contact{
         flex-direction: column;

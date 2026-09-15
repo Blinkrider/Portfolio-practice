@@ -293,10 +293,13 @@ footer textarea {
         flex-direction: column;
         align-items: center;
     }
+    .about-contact{
+        flex-direction: column;
+    }
     .cv-edu{
         width:auto;
     }
-    footer{
+    footer,.about-me{
         padding:20px;
     }
     footer .foot-ass {
